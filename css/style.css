@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #C1B4AE;
+     /*clip-path: polygon(76% 0, 100% 26%, 85% 100%, 0 81%);*/
+}
+.back{
+    position: absolute;
+    top: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #353238;
+    z-index: -1;
+    clip-path: polygon(71% 0, 100% 17%, 84% 100%, 23% 100%);
+}
+.back-wrap{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(0 0 10px rgb(0, 0, 0));
+    
+}
+.form_log{
+    display: flex;
+    float: right;
+    margin-top: 5vh;
+    margin-right: 25vh;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+}
+.cont1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+} 
+.log{
+    outline: none;/*retirando bordas ao clicar na caixa*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    width: 20em;
+    height: 2em;
+    border-radius: 20px;
+    padding-left: 5px;
+}
+.pass{
+    outline: none;
+    width: 20em;
+    height: 2em;
+    font-size: 1.3em;
+    border-radius: 20px;
+    padding-left: 5px;
+}
+.log:hover,.pass:hover,.log:focus,.pass:focus{
+    border: solid 2px dodgerblue;
+}
+
+.cont2{
+    margin-top: 20px;
+    width: 20em;
+    display: flex;
+    justify-content:center ;
+    flex-wrap: wrap;
+
+}
+.esq{
+    text-decoration: none;
+    margin-top: 20px;
+    color: #C1B4AE;
+}
+.login,.new{
+    outline: none;
+    margin-left: 12px;
+    border-radius: 20px;
+    background-color: #BE5A38;
+    font-family: 'Montserrat','sans-serif';
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.login:hover,.new:hover{
+    background-color: #92140C;
+}
+.cont2 button{
+    width: 10em;
+    height: 3em;
+    order: -1;
+}
+.tit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 0.5%;
+    text-align: left;
+}
+header h2{
+    font-family: 'Noto Sans JP',sans-serif;
+    color: #353238;
+    font-weight: 500;
+}
+.tit{
+    align-items: flex-start;
+}
+.tit1{
+    font-family: 'Noto Sans JP',sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+    color: #BE5A38;
+}
+
